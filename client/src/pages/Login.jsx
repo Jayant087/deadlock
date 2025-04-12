@@ -46,10 +46,12 @@
 // }
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -60,6 +62,7 @@ export default function Login() {
     try {
       const res = await axios.post("http://localhost:8000/home/login/", form);
       setMessage(res.data.message);
+      if (res) navigate("/");
     } catch (err) {
       setMessage(err.response?.data?.message || "Login failed");
     }

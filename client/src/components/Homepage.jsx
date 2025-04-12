@@ -12,10 +12,10 @@ const Homepage = () => {
     >
       <Navbar />
       <div className="flex items-center flex-col">
-        <div className="mt-10 text-white flex  sm:text-base md:text-[50px] lg:text-[50px] leading-relaxed font-bold ">
+        <div className="font-poppins mt-10 text-white flex  sm:text-base md:text-[50px] lg:text-[50px] leading-relaxed font-bold ">
           Discover the untouched charm of Himachal
         </div>
-        <div className="text-white sm:text-base md:text-lg lg:text-[25px] leading-relaxed text-[30px] my-5">
+        <div className=" font-poppins text-white sm:text-base md:text-lg lg:text-[25px] leading-relaxed text-[30px] my-5">
           where every valley whispers stories, and every sunrise invites a new
           adventure.
         </div>

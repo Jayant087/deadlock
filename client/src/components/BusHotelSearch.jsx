@@ -3,12 +3,10 @@ const BusHotelSearch = () => {
   return (
     <div className="relative shadow-xl shadow-gray-700 w-[55vw] h-[37vh] bg-white/50 backdrop-blur-md rounded-3xl">
       <div className="flex justify-center pt-5">
-        <div className="flex bg-white bg-opacity-70 rounded-full w-[15vw] p-1 justify-evenly">
+        <div className="flex bg-white bg-opacity-70 rounded-full w-[9vw] p-1 justify-evenly">
           <div className="rounded-full flex bg-[#023471] ">
-            <button className="text-white w-[8vw]">Hotels</button>
+            <button className="text-white p-2 w-[8vw]">Hotels</button>
           </div>
-
-          <button className="rounded-full p-2 w-[6vw]">Buses</button>
         </div>
       </div>
       <p className="text-blue-950 text-center my-3 font-bold text-xl">

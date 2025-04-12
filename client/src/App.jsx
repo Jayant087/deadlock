@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-import EndPage from "./pages/EndPage";
+import Conclusion from "./pages/Conclusion";
 import MiddlePage from "./pages/MiddlePage";
 import PlanYourTrip from "./pages/PlanYourTrip";
 import HotelOfferPage from "./pages/HotelOfferPage";
@@ -20,7 +20,7 @@ function App() {
               <Homepage />
               <MiddlePage />
               <HotelOfferPage />
-              <EndPage />
+              <Conclusion />
             </>
           }
         />

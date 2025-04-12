@@ -55,10 +55,12 @@ import { useState } from "react";
 import axios from "axios";
 import bgImage from "../assets/img.jpg";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 export default function Signup() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -69,6 +71,7 @@ export default function Signup() {
     try {
       const res = await axios.post("http://localhost:8000/home/signup/", form);
       setMessage(res.data.message);
+      navigate("/login");
     } catch (err) {
       setMessage("Error signing up");
     }

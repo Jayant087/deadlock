@@ -36,7 +36,7 @@ const CountdownTimer = () => {
 };
 
 const HotelCard = ({ title, description }) => (
-  <div className="bg-white w-[20vw] m-5 rounded-lg shadow-md">
+  <div className="bg-white w-[20vw] mt-5 rounded-lg shadow-lg border-2">
     <div className=" p-1 flex justify-center rounded-lg">
       <img src={`${hotel2}`} width={"60%"} alt="" />
     </div>
@@ -53,7 +53,7 @@ const HotelCard = ({ title, description }) => (
 const App = () => {
   return (
     <div className="w-[30vw] flex justify-center">
-      <div className="flex justify-evenly flex-col">
+      <div className="flex justify-evenly flex-col mb-5">
         <CountdownTimer />
         <HotelCard
           title="Fab Hotels Manali"

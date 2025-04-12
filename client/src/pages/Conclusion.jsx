@@ -1,7 +1,9 @@
 import React from "react";
 import bgImage from "../assets/bg.jpg";
-
-const App = () => {
+import kulludesh from "../assets/kulludesh.jpg";
+import snowfall from "../assets/snowfall.jpg";
+import forest from "../assets/forest.jpg";
+const Conclusion = () => {
   return (
     <div
       className="bg-gradient-to-b from-blue-500 to-blue-700 text-white pt-8 bg-cover"
@@ -10,9 +12,10 @@ const App = () => {
       <h1 className="text-3xl font-bold text-center mb-12">Himachal Tourism</h1>
 
       {/* Card Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-40 mb-12">
         {/* Card 1 */}
-        <div className="bg-white text-black rounded-lg shadow-lg p-6">
+        <div className="ml-20 bg-white text-black rounded-lg shadow-lg p-6">
+          <img src={`${kulludesh}`} alt="" srcset="" />
           <h2 className="text-xl font-semibold">Dussehra in Kullu</h2>
           <p>
             Kullu Dussehra is a unique week-long festival celebrated in the the
@@ -27,7 +30,8 @@ const App = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white text-black rounded-lg shadow-lg p-6">
+        <div className=" text-black rounded-lg shadow-lg p-6 border-2">
+          <img src={`${snowfall}`} alt="" srcset="" className="rounded-lg" />
           <h2 className="text-xl font-semibold">Prashar Lake in Mandi</h2>
           <p>
             Prashar Lake is a beautiful lake situated in the Mandi district of
@@ -40,7 +44,8 @@ const App = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white text-black rounded-lg shadow-lg p-6">
+        <div className="mr-20 bg-white text-black rounded-lg shadow-lg p-6">
+          <img src={`${forest}`} alt="" srcset="" />
           <h2 className="text-xl font-semibold">Jibhi in Kullu</h2>
           <p>
             Jibhi is a captivating destination in the Kullu Valley known for its
@@ -136,4 +141,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Conclusion;

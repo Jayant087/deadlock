@@ -45,7 +45,7 @@ const Navbar = () => {
                     behavior: "smooth",
                   })
                 }
-                className={`rounded-full px-3 py-1 text-sm transition duration-200 ${
+                className={`rounded-full px-3 py-1.5 text-sm transition duration-200 font-spartan ${
                   item === "Home"
                     ? "bg-[#023471] text-white"
                     : "hover:bg-[#023471] hover:text-white"
@@ -65,7 +65,7 @@ const Navbar = () => {
                   if (item === "Login") navigate("/login");
                   else navigate("/signup");
                 }}
-                className={`text-sm rounded-full px-4 py-1 transition duration-200 ${
+                className={`text-sm rounded-full px-5 py-2 transition duration-200 font-spartan ${
                   item === "Login"
                     ? "bg-[#023471] text-white"
                     : "hover:bg-[#023471] hover:text-white"

@@ -1,68 +1,129 @@
-import React from "react";
-import logo from "../assets/image1.png"; // Replace with your actual logo image
+import React, { useState } from "react";
+import logo from "../assets/image1.png";
+import { Menu, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const mainLinks = [
+    "Home",
+    "Destinations",
+    "Activities",
+    "How to reach",
+    "Contact us",
+    "Tour and Packages",
+    "About us",
+  ];
+
+  const authLinks = ["Login", "Signup"];
+
   return (
-    <div className="flex items-center ">
-      <div className="h-16 mt-5 mr-20 w-[10vw] items-start">
+    <div className="w-full flex flex-col md:flex-row items-start md:items-center p-4">
+      {/* Logo on the left */}
+      <div className="h-16 w-[120px] md:mt-5 md:mr-10">
         <img
           src={logo}
           alt="Logo"
           className="object-contain h-full w-full hover:cursor-pointer"
         />
       </div>
-      <div className="relative flex h-10 ml-20 mr-15 w-[65vw] gap-6 mt-4">
-        {/* Left: Logo image block */}
 
-        {/* Center: Floating Nav */}
-        <div className="flex">
-          <nav className="bg-white/20 backdrop-blur-md h-[6vh] rounded-full w-[51vw] px-6shadow-lg flex justify-between items-center max-w-6xl z-10">
-            {/* Middle: Nav Buttons */}
-            <div className="flex">
-              {[
-                "Home",
-                "Destinations",
-                "Activities",
-                "How to reach",
-                "Contact us",
-                "Tour and Packages",
-                "About us",
-              ].map((item) => (
+      {/* Center + Auth Buttons */}
+      <div className="flex-1 mt-4 md:mt-5 md:ml-6 w-full">
+        {/* Desktop layout */}
+        <div className="hidden md:flex justify-around items-center w-full">
+          {/* Main nav buttons in glass div */}
+          <nav className="bg-white/20 backdrop-blur-md h-[6vh] rounded-full px-4 shadow-lg flex items-center flex-wrap gap-6 w-[65%]">
+            {mainLinks.map((item, index) => (
+              <button
+                key={item}
+                onClick={() =>
+                  window.scrollBy({
+                    top: window.innerHeight * (index + 1),
+                    behavior: "smooth",
+                  })
+                }
+                className={`rounded-full px-3 py-1 text-sm transition duration-200 ${
+                  item === "Home"
+                    ? "bg-[#023471] text-white"
+                    : "hover:bg-[#023471] hover:text-white"
+                }`}
+              >
+                {item}
+              </button>
+            ))}
+          </nav>
+
+          {/* Auth buttons in separate glass div */}
+          <nav className="bg-white/20 backdrop-blur-md h-[6vh] rounded-full shadow-lg px-1 flex items-center w-[12%] justify-between">
+            {["Login", "Signup"].map((item) => (
+              <button
+                key={item}
+                onClick={() => {
+                  if (item === "Login") navigate("/login");
+                  else navigate("/signup");
+                }}
+                className={`text-sm rounded-full px-4 py-1 transition duration-200 ${
+                  item === "Login"
+                    ? "bg-[#023471] text-white"
+                    : "hover:bg-[#023471] hover:text-white"
+                }`}
+              >
+                {item}
+              </button>
+            ))}
+          </nav>
+        </div>
+
+        {/* Mobile layout */}
+        <div className="md:hidden flex justify-between items-center w-full">
+          <button onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile dropdown content */}
+        {isOpen && (
+          <div className="flex flex-col gap-4 mt-3 md:hidden">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-4 shadow">
+              {mainLinks.map((item, index) => (
                 <button
                   key={item}
-                  className={`ml-1.5 rounded-full px-3 py-1 transition duration-200
-      ${
-        item === "Home"
-          ? "bg-[#023471] text-white"
-          : " hover:bg-[#023471] hover:text-white"
-      }`}
+                  onClick={() => {
+                    setIsOpen(false);
+                    window.scrollBy({
+                      top: window.innerHeight * (index + 1),
+                      behavior: "smooth",
+                    });
+                  }}
+                  className={`block w-full text-left rounded-full px-4 py-2 text-sm transition duration-200 ${
+                    item === "Home"
+                      ? "bg-[#023471] text-white"
+                      : "hover:bg-[#023471] hover:text-white"
+                  }`}
                 >
                   {item}
                 </button>
               ))}
             </div>
-          </nav>
-        </div>
-        <div className="relative flex justify-center transform ml-20">
-          <nav className="bg-white/20 w-[12vw] backdrop-blur-md rounded-full h-[6vh] px-0.25 shadow-lg flex justify-between items-center max-w-6xl z-10">
-            {/* Middle: Nav Buttons */}
-            <div className="flex gap-3">
-              {["Login", "Signup"].map((item) => (
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-4 shadow flex justify-around">
+              {authLinks.map((item) => (
                 <button
                   key={item}
-                  className={`text-black-600 ml-1.5 rounded-full w-[5vw] px-3 py-1 transition duration-200 hover:bg-[#023471]
-              hover:text-white ${
-                item === "Login"
-                  ? "bg-[#023471] text-white"
-                  : " hover:bg-[#023471] hover:text-white"
-              }`}
+                  className={`text-sm rounded-full px-4 py-2 transition duration-200 ${
+                    item === "Login"
+                      ? "bg-[#023471] text-white"
+                      : "hover:bg-[#023471] hover:text-white"
+                  }`}
                 >
                   {item}
                 </button>
               ))}
             </div>
-          </nav>
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

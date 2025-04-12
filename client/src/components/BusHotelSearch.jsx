@@ -1,4 +1,4 @@
-import logo from "../assets/chevron-arrow-down.png";
+import logo from "../assets/location.png";
 const BusHotelSearch = () => {
   return (
     <div className="relative shadow-xl shadow-gray-700 w-[55vw] h-[37vh] bg-white/50 backdrop-blur-md rounded-3xl">
@@ -11,21 +11,37 @@ const BusHotelSearch = () => {
           <button className="rounded-full p-2 w-[6vw]">Buses</button>
         </div>
       </div>
-      <p className="text-blue-950 text-center my-5 font-bold text-xl">
+      <p className="text-blue-950 text-center my-3 font-bold text-xl">
         Book your stay
       </p>
-      <div className="flex justify-center w-[50vw] m-auto">
-        <input
-          type="text"
-          placeholder="   Search destination hotel"
-          className="flex rounded-l-full w-[20vw] focus:outline-none"
-        />
-        <div className="bg-[#023471] items-center w-[16vw] text-center text-white p-2">
-          7 Apr, Mon - 9 Apr, Wed
+      <div className="flex justify-center p-2 m-auto">
+        <div className="rounded-l-full w-[2vw] bg-white"></div>
+        <div className="flex bg-white pr-2">
+          <input
+            type="text"
+            placeholder="Search destination hotel"
+            className="flex w-[12.5vw] p-2 focus:outline-none"
+          />
+          <div className="py-1 hover:cursor-pointer">
+            <div className="p-0.5 rounded-md flex justify-between border-1 border-2 border-blue-500">
+              <div className="flex flex-col justify-center">
+                <img src={`${logo}`} alt="" className="max-w-[2vw] h-[2vh]" />
+              </div>
+              <div className="">Near me</div>
+            </div>
+          </div>
         </div>
+        <div className="flex flex-col justify-center">
+          <div className="py-2 bg-[#023471] items-center  w-[15.5vw] text-center text-white">
+            7 Apr, Mon - 9 Apr, Wed
+          </div>
+        </div>
+
         <div className="w-px h-100%"></div>
-        <div className="bg-[#023471] rounded-r-full w-[14vw] text-center text-white p-2">
-          4 Guests - 2 Rooms
+        <div className="flex  flex-col justify-center">
+          <div className="py-2 bg-[#023471] rounded-r-full w-[13vw] text-center text-white ">
+            4 Guests - 2 Rooms
+          </div>
         </div>
       </div>
       <div className="rounded-full text-white bg-[#389020] w-[50vw] text-center m-auto my-5 p-2 font-sans hover:cursor-pointer hover:bg-green-600">

@@ -5,10 +5,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-import Demo from "./pages/Demo";
 import EndPage from "./pages/EndPage";
 import MiddlePage from "./pages/MiddlePage";
 import PlanYourTrip from "./pages/PlanYourTrip";
+import HotelOfferPage from "./pages/HotelOfferPage";
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +19,7 @@ function App() {
             <>
               <Homepage />
               <MiddlePage />
-              <Demo />
+              <HotelOfferPage />
               <EndPage />
             </>
           }

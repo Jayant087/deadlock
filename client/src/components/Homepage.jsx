@@ -3,10 +3,8 @@ import bgImage from "../assets/monk.jpg";
 import BusHotelSearch from "./BusHotelSearch";
 import Navbar from "./Navbar";
 import { useRef } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
-  const navigate = useNavigate();
   return (
     <div
       className="h-max-screen w-max-screen bg-no-repeat bg-center object-cover bg-cover"
@@ -24,14 +22,6 @@ const Homepage = () => {
       </div>
       <div className="flex justify-end mr-20 mt-10">
         <BusHotelSearch />
-      </div>
-      <div className="flex justify-center ">
-        <div
-          className="text-bold mt-5 bg-blue-600 rounded-full p-3 text-center w-[10vw] text-white hover:cursor-pointer"
-          onClick={() => navigate("/plan-your-trip")}
-        >
-          Plan your Trip?
-        </div>
       </div>
       <div className="h-[22vh]"></div>
       <p className="p-2 bg-[#023471] text-white text-center text-sm">

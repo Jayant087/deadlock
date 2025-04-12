@@ -36,19 +36,14 @@ const CountdownTimer = () => {
 };
 
 const HotelCard = ({ title, description }) => (
-  <div className="bg-white w-[20vw] rounded-lg shadow-md">
-    <div
-      className="w-[20vw] h-20 my-4  bg-cover bg-center rounded-lg"
-      style={{
-        backgroundImage: `url(${hotel2})`,
-        width: "12vw",
-        height: "23vh",
-      }}
-    />
+  <div className="bg-white w-[20vw] m-5 rounded-lg shadow-md">
+    <div className=" p-1 flex justify-center rounded-lg">
+      <img src={`${hotel2}`} width={"60%"} alt="" />
+    </div>
     <h2 className="text-lg justify-center flex font-semibold mt-3">{title}</h2>
     <p className="text-gray-700 justify-center flex">{description}</p>
-    <div className="flex-">
-      <button className="mt-3 bg-blue-500 text-white py-2 px-4 rounded">
+    <div className="flex justify-center m-3">
+      <button className="bg-blue-500 text-white py-2 px-4 rounded">
         Check availability →
       </button>
     </div>

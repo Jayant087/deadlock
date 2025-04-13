@@ -60,18 +60,19 @@ import logo from "../assets/tiharahotel.jpg";
 
 const HotelCard = ({ hotel }) => {
   return (
-    <div className="w-full max-w-[600px] rounded-2xl  shadow-md bg-white p-4 flex gap-4 items-start h-[30vh]">
+    <div className="grid grid-cols-2 w-[29vw] rounded-2xl shadow-md bg-white h-[30vh]">
       {/* Image Section */}
-      <div className="w-[200px] h-[175px] overflow-hidden rounded-xl">
+
+      <div className="w-[180px] h-[175px] rounded-xl m-auto">
         <img
           src={logo}
           alt={hotel.name}
-          className="w-full h-full object-cover rounded-xl"
+          className="w-full h-full  object-cover rounded-xl"
         />
       </div>
 
       {/* Info Section */}
-      <div className="flex flex-col justify-between flex-1">
+      <div className="flex flex-col my-auto">
         <div>
           <h2 className="text-lg font-semibold">{hotel.name}</h2>
           <p className="text-gray-600 text-sm">{hotel.location}</p>
@@ -86,7 +87,7 @@ const HotelCard = ({ hotel }) => {
           <p className="text-sm mt-1">1 Room - 2 Guests</p>
         </div>
 
-        <div className="flex items-center mt-2">
+        <div className="flex items-center">
           <span className="text-yellow-500">⭐⭐⭐⭐☆</span>
           <span className="text-gray-500 ml-2">({hotel.rating})</span>
         </div>

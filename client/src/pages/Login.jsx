@@ -47,7 +47,8 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import logo from "../assets/login.png";
+import Signup from "./Signup";
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
   const [message, setMessage] = useState("");
@@ -67,11 +68,12 @@ export default function Login() {
       setMessage(err.response?.data?.message || "Login failed");
     }
   };
-
   return (
     <div className="flex min-h-screen">
       {/* Left: Red-Blue Gradient */}
-      <div className="w-1/2 bg-gradient-to-b from-red-500 to-blue-500 hidden md:block"></div>
+      <div className="bg-gradient-to-b from-red-500 to-blue-500 object-cover md:block ">
+        <img src={`${logo}`} alt="" srcset="" />
+      </div>
 
       {/* Right: Login Form */}
       <div className="w-full md:w-1/2 flex items-center justify-center p-6 bg-white">

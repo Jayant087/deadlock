@@ -7,6 +7,7 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         spartan: ['"League Spartan"', "sans-serif"],
         helveticaCompressed: ['"Helvetica Compressed"', "sans-serif"],
+        poppins: ['"Poppins"', "sans-serif"],
       },
     },
   },

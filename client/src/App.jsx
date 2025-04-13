@@ -11,6 +11,8 @@ import PlanYourTrip from "./pages/PlanYourTrip";
 import HotelOfferPage from "./pages/HotelOfferPage";
 // import HotelResults from "./pages/HotelResults";
 import HotelList from "./pages/HotelList";
+import SearchFilterPage from "./pages/SearchFilterPage";
+import RoomLayout from "./pages/RoomsLayout";
 function App() {
   return (
     <BrowserRouter>
@@ -29,8 +31,10 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         {/* <Route path="/results" element={<HotelResults />} /> */}
+        <Route path="/searchfilter" element={<SearchFilterPage />} />
         <Route path="/plan-your-trip" element={<PlanYourTrip />} />
         <Route path="/hotels/:location" element={<HotelList />} />
+        <Route path="/room-layout" element={<RoomLayout />} />
       </Routes>
     </BrowserRouter>
   );

@@ -24,11 +24,7 @@ const Homepage = () => {
         <BusHotelSearch />
       </div>
       <div className="h-[22vh]"></div>
-      <p className="p-2 bg-[#023471] text-white text-center text-sm">
-        Himachal is the most loved tourist destination of india-dont miss out
-        your chance to visit himachal. Manali caters about 1,00,000 people every
-        year from outside himachal through himachal tourism website
-      </p>
+      <div className="h-[8vh]"></div>
     </div>
   );
 };

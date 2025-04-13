@@ -151,9 +151,10 @@ const HotelOffer = () => {
     <div className="w-[70vw] mx-auto">
       {/* Filter Section */}
       <div className="flex border-2 border-gray rounded-full mb-4">
-        <div className="w-full text-sm h-10 rounded-l-lg ml-2 p-2">
+        <div className="pb-1.5 font-spartan w-full text-sm font-semibold h-10 rounded-l-lg ml-2 p-2">
           Checkout some best hotels
         </div>
+
         <div className="flex justify-between items-center mr-5">
           <select
             className="border rounded-full px-3 py-1 border-gray-500"

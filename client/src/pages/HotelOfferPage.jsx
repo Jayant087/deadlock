@@ -3,8 +3,8 @@ import LocationWiseFilter from "./LocationWiseFilter";
 
 export default function HotelOfferPage() {
   return (
-    <div className="">
-      <div className="font-helveticaCompressed font-medium text-[#9a9a9a] ml-10 text-3xl mb-5">
+    <div className="h-[120vh] mt-[40vh] ml-[6vw]">
+      <div className="font-helveticaCompressed text-[3.5rem] text-[#9a9a9a] mb-5">
         Exclusive deals in manali
       </div>
       <div className="flex">

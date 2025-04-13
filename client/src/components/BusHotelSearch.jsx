@@ -63,9 +63,9 @@ const BusHotelSearch = () => {
           <div className="py-1 hover:cursor-pointer">
             <div className="p-0.5 rounded-md flex justify-between border-1 border-2 border-blue-500">
               <div className="flex flex-col justify-center">
-                <img src={`${logo}`} alt="" className="max-w-[2vw] h-[2vh]" />
+                <img src={`${logo}`} alt="" className="w-[1.5vw] h-[3vh]" />
               </div>
-              <div className="">Near me</div>
+              <div className="ml-1 leading-none p-1">Near me</div>
             </div>
           </div>
         </div>

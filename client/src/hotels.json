@@ -1,0 +1,1202 @@
+[
+  {
+    "hotel_name": "Villa Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 3,
+    "price": 5536
+  },
+  {
+    "hotel_name": "Villa Tranquil Stay",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 4375
+  },
+  {
+    "hotel_name": "Villa Snowpeak",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 7577
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Sirmaur",
+    "guests_per_room": 5,
+    "price": 4791
+  },
+  {
+    "hotel_name": "Retreat Snowpeak",
+    "location": "Kinnaur",
+    "guests_per_room": 4,
+    "price": 4029
+  },
+  {
+    "hotel_name": "Lodge Alpine Glow",
+    "location": "Dharamshala",
+    "guests_per_room": 3,
+    "price": 3270
+  },
+  {
+    "hotel_name": "Retreat Evergreen",
+    "location": "Shimla",
+    "guests_per_room": 5,
+    "price": 7496
+  },
+  {
+    "hotel_name": "Villa Riverbend",
+    "location": "Dharamshala",
+    "guests_per_room": 4,
+    "price": 1754
+  },
+  {
+    "hotel_name": "Resort Valley Nest",
+    "location": "Shimla",
+    "guests_per_room": 5,
+    "price": 3672
+  },
+  {
+    "hotel_name": "Villa Himalayan Bliss",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 7871
+  },
+  {
+    "hotel_name": "Retreat Valley Nest",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 4482
+  },
+  {
+    "hotel_name": "Resort Himalayan Bliss",
+    "location": "Manali",
+    "guests_per_room": 1,
+    "price": 3693
+  },
+  {
+    "hotel_name": "Hotel Alpine Glow",
+    "location": "Mandi",
+    "guests_per_room": 5,
+    "price": 5200
+  },
+  {
+    "hotel_name": "Retreat Tranquil Stay",
+    "location": "Kinnaur",
+    "guests_per_room": 3,
+    "price": 6056
+  },
+  {
+    "hotel_name": "Retreat Himalayan Bliss",
+    "location": "Kullu",
+    "guests_per_room": 5,
+    "price": 7259
+  },
+  {
+    "hotel_name": "Palace Riverbend",
+    "location": "Sirmaur",
+    "guests_per_room": 4,
+    "price": 1478
+  },
+  {
+    "hotel_name": "Palace Valley Nest",
+    "location": "Shimla",
+    "guests_per_room": 2,
+    "price": 6687
+  },
+  {
+    "hotel_name": "Palace Cloud Nine",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 1763
+  },
+  {
+    "hotel_name": "Palace Cloud Nine",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 5550
+  },
+  {
+    "hotel_name": "Palace Valley Nest",
+    "location": "Manali",
+    "guests_per_room": 5,
+    "price": 2082
+  },
+  {
+    "hotel_name": "Palace Forest Edge",
+    "location": "Manali",
+    "guests_per_room": 2,
+    "price": 3921
+  },
+  {
+    "hotel_name": "Villa Valley Nest",
+    "location": "Mandi",
+    "guests_per_room": 4,
+    "price": 5857
+  },
+  {
+    "hotel_name": "Resort Valley Nest",
+    "location": "Chamba",
+    "guests_per_room": 3,
+    "price": 4853
+  },
+  {
+    "hotel_name": "Villa Tranquil Stay",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 6718
+  },
+  {
+    "hotel_name": "Lodge Tranquil Stay",
+    "location": "Darjeeling",
+    "guests_per_room": 4,
+    "price": 3725
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 2046
+  },
+  {
+    "hotel_name": "Retreat Forest Edge",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 2187
+  },
+  {
+    "hotel_name": "Retreat Himalayan Bliss",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 7213
+  },
+  {
+    "hotel_name": "Retreat Evergreen",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 5983
+  },
+  {
+    "hotel_name": "Palace Himalayan Bliss",
+    "location": "Darjeeling",
+    "guests_per_room": 3,
+    "price": 4918
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 6293
+  },
+  {
+    "hotel_name": "Hotel Riverbend",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 1671
+  },
+  {
+    "hotel_name": "Lodge Cloud Nine",
+    "location": "Manali",
+    "guests_per_room": 1,
+    "price": 1958
+  },
+  {
+    "hotel_name": "Resort Cloud Nine",
+    "location": "Kinnaur",
+    "guests_per_room": 4,
+    "price": 3820
+  },
+  {
+    "hotel_name": "Villa Alpine Glow",
+    "location": "Sirmaur",
+    "guests_per_room": 2,
+    "price": 6994
+  },
+  {
+    "hotel_name": "Palace Mountain View",
+    "location": "Sirmaur",
+    "guests_per_room": 1,
+    "price": 5482
+  },
+  {
+    "hotel_name": "Inn Forest Edge",
+    "location": "Dharamshala",
+    "guests_per_room": 4,
+    "price": 6687
+  },
+  {
+    "hotel_name": "Inn Snowpeak",
+    "location": "Shimla",
+    "guests_per_room": 1,
+    "price": 6389
+  },
+  {
+    "hotel_name": "Villa Alpine Glow",
+    "location": "Mandi",
+    "guests_per_room": 3,
+    "price": 7462
+  },
+  {
+    "hotel_name": "Resort Himalayan Bliss",
+    "location": "Sirmaur",
+    "guests_per_room": 2,
+    "price": 6993
+  },
+  {
+    "hotel_name": "Palace Riverbend",
+    "location": "Manali",
+    "guests_per_room": 5,
+    "price": 7908
+  },
+  {
+    "hotel_name": "Inn Evergreen",
+    "location": "Mandi",
+    "guests_per_room": 5,
+    "price": 7088
+  },
+  {
+    "hotel_name": "Retreat Valley Nest",
+    "location": "Kinnaur",
+    "guests_per_room": 3,
+    "price": 7618
+  },
+  {
+    "hotel_name": "Hotel Forest Edge",
+    "location": "Mandi",
+    "guests_per_room": 1,
+    "price": 2193
+  },
+  {
+    "hotel_name": "Retreat Alpine Glow",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 3202
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Shimla",
+    "guests_per_room": 1,
+    "price": 2864
+  },
+  {
+    "hotel_name": "Resort Tranquil Stay",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 7570
+  },
+  {
+    "hotel_name": "Palace Snowpeak",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 2301
+  },
+  {
+    "hotel_name": "Inn Himalayan Bliss",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 3353
+  },
+  {
+    "hotel_name": "Retreat Snowpeak",
+    "location": "Chamba",
+    "guests_per_room": 3,
+    "price": 2659
+  },
+  {
+    "hotel_name": "Hotel Riverbend",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 7077
+  },
+  {
+    "hotel_name": "Villa Mountain View",
+    "location": "Mandi",
+    "guests_per_room": 5,
+    "price": 6429
+  },
+  {
+    "hotel_name": "Palace Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 4,
+    "price": 5520
+  },
+  {
+    "hotel_name": "Inn Forest Edge",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 2881
+  },
+  {
+    "hotel_name": "Lodge Riverbend",
+    "location": "Kinnaur",
+    "guests_per_room": 3,
+    "price": 6514
+  },
+  {
+    "hotel_name": "Palace Himalayan Bliss",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 4858
+  },
+  {
+    "hotel_name": "Inn Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 3,
+    "price": 7846
+  },
+  {
+    "hotel_name": "Villa Cloud Nine",
+    "location": "Darjeeling",
+    "guests_per_room": 4,
+    "price": 6946
+  },
+  {
+    "hotel_name": "Hotel Snowpeak",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 1747
+  },
+  {
+    "hotel_name": "Hotel Mountain View",
+    "location": "Mandi",
+    "guests_per_room": 1,
+    "price": 5639
+  },
+  {
+    "hotel_name": "Villa Mountain View",
+    "location": "Kullu",
+    "guests_per_room": 1,
+    "price": 4541
+  },
+  {
+    "hotel_name": "Villa Forest Edge",
+    "location": "Shimla",
+    "guests_per_room": 3,
+    "price": 1861
+  },
+  {
+    "hotel_name": "Lodge Snowpeak",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 2601
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 2029
+  },
+  {
+    "hotel_name": "Inn Forest Edge",
+    "location": "Kinnaur",
+    "guests_per_room": 4,
+    "price": 7476
+  },
+  {
+    "hotel_name": "Villa Forest Edge",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 1260
+  },
+  {
+    "hotel_name": "Resort Forest Edge",
+    "location": "Shimla",
+    "guests_per_room": 5,
+    "price": 7304
+  },
+  {
+    "hotel_name": "Palace Mountain View",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 6935
+  },
+  {
+    "hotel_name": "Lodge Tranquil Stay",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 1830
+  },
+  {
+    "hotel_name": "Palace Valley Nest",
+    "location": "Kullu",
+    "guests_per_room": 4,
+    "price": 4508
+  },
+  {
+    "hotel_name": "Inn Cloud Nine",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 3798
+  },
+  {
+    "hotel_name": "Resort Riverbend",
+    "location": "Dharamshala",
+    "guests_per_room": 4,
+    "price": 5176
+  },
+  {
+    "hotel_name": "Inn Riverbend",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 4481
+  },
+  {
+    "hotel_name": "Palace Cloud Nine",
+    "location": "Kinnaur",
+    "guests_per_room": 5,
+    "price": 5786
+  },
+  {
+    "hotel_name": "Retreat Riverbend",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 5998
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 3631
+  },
+  {
+    "hotel_name": "Retreat Riverbend",
+    "location": "Kullu",
+    "guests_per_room": 5,
+    "price": 4486
+  },
+  {
+    "hotel_name": "Lodge Snowpeak",
+    "location": "Kullu",
+    "guests_per_room": 4,
+    "price": 2742
+  },
+  {
+    "hotel_name": "Villa Evergreen",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 1100
+  },
+  {
+    "hotel_name": "Retreat Riverbend",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 1981
+  },
+  {
+    "hotel_name": "Lodge Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 1,
+    "price": 3421
+  },
+  {
+    "hotel_name": "Inn Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 5014
+  },
+  {
+    "hotel_name": "Hotel Cloud Nine",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 7140
+  },
+  {
+    "hotel_name": "Retreat Mountain View",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 6560
+  },
+  {
+    "hotel_name": "Inn Tranquil Stay",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 1171
+  },
+  {
+    "hotel_name": "Resort Mountain View",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 3630
+  },
+  {
+    "hotel_name": "Villa Valley Nest",
+    "location": "Chamba",
+    "guests_per_room": 3,
+    "price": 7085
+  },
+  {
+    "hotel_name": "Retreat Mountain View",
+    "location": "Manali",
+    "guests_per_room": 3,
+    "price": 1464
+  },
+  {
+    "hotel_name": "Inn Riverbend",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 2479
+  },
+  {
+    "hotel_name": "Palace Forest Edge",
+    "location": "Shimla",
+    "guests_per_room": 2,
+    "price": 6770
+  },
+  {
+    "hotel_name": "Resort Evergreen",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 7419
+  },
+  {
+    "hotel_name": "Palace Tranquil Stay",
+    "location": "Shimla",
+    "guests_per_room": 2,
+    "price": 4953
+  },
+  {
+    "hotel_name": "Retreat Himalayan Bliss",
+    "location": "Chamba",
+    "guests_per_room": 3,
+    "price": 7056
+  },
+  {
+    "hotel_name": "Palace Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 2,
+    "price": 1662
+  },
+  {
+    "hotel_name": "Hotel Snowpeak",
+    "location": "Dharamshala",
+    "guests_per_room": 3,
+    "price": 5077
+  },
+  {
+    "hotel_name": "Palace Snowpeak",
+    "location": "Chamba",
+    "guests_per_room": 4,
+    "price": 4387
+  },
+  {
+    "hotel_name": "Retreat Tranquil Stay",
+    "location": "Kullu",
+    "guests_per_room": 5,
+    "price": 7001
+  },
+  {
+    "hotel_name": "Villa Snowpeak",
+    "location": "Chamba",
+    "guests_per_room": 2,
+    "price": 2525
+  },
+  {
+    "hotel_name": "Resort Evergreen",
+    "location": "Dharamshala",
+    "guests_per_room": 3,
+    "price": 2790
+  },
+  {
+    "hotel_name": "Retreat Snowpeak",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 5588
+  },
+  {
+    "hotel_name": "Resort Tranquil Stay",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 6868
+  },
+  {
+    "hotel_name": "Retreat Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 4,
+    "price": 1118
+  },
+  {
+    "hotel_name": "Retreat Riverbend",
+    "location": "Chamba",
+    "guests_per_room": 3,
+    "price": 3585
+  },
+  {
+    "hotel_name": "Palace Himalayan Bliss",
+    "location": "Shimla",
+    "guests_per_room": 1,
+    "price": 7680
+  },
+  {
+    "hotel_name": "Inn Alpine Glow",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 2579
+  },
+  {
+    "hotel_name": "Inn Tranquil Stay",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 3410
+  },
+  {
+    "hotel_name": "Hotel Tranquil Stay",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 7772
+  },
+  {
+    "hotel_name": "Lodge Forest Edge",
+    "location": "Kullu",
+    "guests_per_room": 5,
+    "price": 7503
+  },
+  {
+    "hotel_name": "Retreat Evergreen",
+    "location": "Dharamshala",
+    "guests_per_room": 2,
+    "price": 6751
+  },
+  {
+    "hotel_name": "Villa Alpine Glow",
+    "location": "Kullu",
+    "guests_per_room": 1,
+    "price": 7714
+  },
+  {
+    "hotel_name": "Resort Mountain View",
+    "location": "Manali",
+    "guests_per_room": 3,
+    "price": 1341
+  },
+  {
+    "hotel_name": "Inn Tranquil Stay",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 2656
+  },
+  {
+    "hotel_name": "Inn Riverbend",
+    "location": "Chamba",
+    "guests_per_room": 4,
+    "price": 1494
+  },
+  {
+    "hotel_name": "Inn Cloud Nine",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 2346
+  },
+  {
+    "hotel_name": "Lodge Valley Nest",
+    "location": "Kullu",
+    "guests_per_room": 4,
+    "price": 4429
+  },
+  {
+    "hotel_name": "Palace Mountain View",
+    "location": "Manali",
+    "guests_per_room": 3,
+    "price": 4084
+  },
+  {
+    "hotel_name": "Retreat Tranquil Stay",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 6201
+  },
+  {
+    "hotel_name": "Villa Tranquil Stay",
+    "location": "Dharamshala",
+    "guests_per_room": 1,
+    "price": 5909
+  },
+  {
+    "hotel_name": "Lodge Tranquil Stay",
+    "location": "Mandi",
+    "guests_per_room": 1,
+    "price": 2237
+  },
+  {
+    "hotel_name": "Lodge Himalayan Bliss",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 1820
+  },
+  {
+    "hotel_name": "Retreat Alpine Glow",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 5662
+  },
+  {
+    "hotel_name": "Villa Riverbend",
+    "location": "Sirmaur",
+    "guests_per_room": 1,
+    "price": 1758
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Chamba",
+    "guests_per_room": 5,
+    "price": 6084
+  },
+  {
+    "hotel_name": "Hotel Forest Edge",
+    "location": "Kinnaur",
+    "guests_per_room": 1,
+    "price": 1323
+  },
+  {
+    "hotel_name": "Retreat Riverbend",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 6649
+  },
+  {
+    "hotel_name": "Resort Mountain View",
+    "location": "Manali",
+    "guests_per_room": 1,
+    "price": 1586
+  },
+  {
+    "hotel_name": "Hotel Forest Edge",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 1495
+  },
+  {
+    "hotel_name": "Resort Tranquil Stay",
+    "location": "Kinnaur",
+    "guests_per_room": 2,
+    "price": 1440
+  },
+  {
+    "hotel_name": "Lodge Mountain View",
+    "location": "Kinnaur",
+    "guests_per_room": 2,
+    "price": 5315
+  },
+  {
+    "hotel_name": "Lodge Cloud Nine",
+    "location": "Chamba",
+    "guests_per_room": 5,
+    "price": 3959
+  },
+  {
+    "hotel_name": "Resort Mountain View",
+    "location": "Darjeeling",
+    "guests_per_room": 4,
+    "price": 5953
+  },
+  {
+    "hotel_name": "Inn Alpine Glow",
+    "location": "Shimla",
+    "guests_per_room": 1,
+    "price": 5490
+  },
+  {
+    "hotel_name": "Retreat Snowpeak",
+    "location": "Dharamshala",
+    "guests_per_room": 3,
+    "price": 7798
+  },
+  {
+    "hotel_name": "Inn Evergreen",
+    "location": "Shimla",
+    "guests_per_room": 1,
+    "price": 5568
+  },
+  {
+    "hotel_name": "Palace Tranquil Stay",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 6137
+  },
+  {
+    "hotel_name": "Lodge Alpine Glow",
+    "location": "Manali",
+    "guests_per_room": 5,
+    "price": 6326
+  },
+  {
+    "hotel_name": "Hotel Valley Nest",
+    "location": "Chamba",
+    "guests_per_room": 2,
+    "price": 4467
+  },
+  {
+    "hotel_name": "Retreat Cloud Nine",
+    "location": "Chamba",
+    "guests_per_room": 4,
+    "price": 2199
+  },
+  {
+    "hotel_name": "Hotel Snowpeak",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 4105
+  },
+  {
+    "hotel_name": "Hotel Himalayan Bliss",
+    "location": "Kinnaur",
+    "guests_per_room": 3,
+    "price": 2844
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 2184
+  },
+  {
+    "hotel_name": "Inn Evergreen",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 7901
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 1,
+    "price": 5762
+  },
+  {
+    "hotel_name": "Inn Valley Nest",
+    "location": "Sirmaur",
+    "guests_per_room": 3,
+    "price": 5583
+  },
+  {
+    "hotel_name": "Lodge Alpine Glow",
+    "location": "Chamba",
+    "guests_per_room": 1,
+    "price": 5701
+  },
+  {
+    "hotel_name": "Lodge Evergreen",
+    "location": "Chamba",
+    "guests_per_room": 5,
+    "price": 2910
+  },
+  {
+    "hotel_name": "Palace Valley Nest",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 5919
+  },
+  {
+    "hotel_name": "Retreat Tranquil Stay",
+    "location": "Shimla",
+    "guests_per_room": 5,
+    "price": 3819
+  },
+  {
+    "hotel_name": "Palace Mountain View",
+    "location": "Sirmaur",
+    "guests_per_room": 3,
+    "price": 1359
+  },
+  {
+    "hotel_name": "Retreat Himalayan Bliss",
+    "location": "Chamba",
+    "guests_per_room": 4,
+    "price": 3614
+  },
+  {
+    "hotel_name": "Lodge Tranquil Stay",
+    "location": "Sirmaur",
+    "guests_per_room": 4,
+    "price": 3811
+  },
+  {
+    "hotel_name": "Lodge Riverbend",
+    "location": "Shimla",
+    "guests_per_room": 3,
+    "price": 5325
+  },
+  {
+    "hotel_name": "Resort Alpine Glow",
+    "location": "Sirmaur",
+    "guests_per_room": 2,
+    "price": 2830
+  },
+  {
+    "hotel_name": "Resort Riverbend",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 5981
+  },
+  {
+    "hotel_name": "Retreat Snowpeak",
+    "location": "Shimla",
+    "guests_per_room": 2,
+    "price": 3650
+  },
+  {
+    "hotel_name": "Inn Snowpeak",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 6136
+  },
+  {
+    "hotel_name": "Resort Cloud Nine",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 2786
+  },
+  {
+    "hotel_name": "Hotel Alpine Glow",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 7158
+  },
+  {
+    "hotel_name": "Inn Himalayan Bliss",
+    "location": "Darjeeling",
+    "guests_per_room": 2,
+    "price": 5552
+  },
+  {
+    "hotel_name": "Villa Riverbend",
+    "location": "Mandi",
+    "guests_per_room": 3,
+    "price": 3861
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Sirmaur",
+    "guests_per_room": 2,
+    "price": 6398
+  },
+  {
+    "hotel_name": "Retreat Valley Nest",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 3915
+  },
+  {
+    "hotel_name": "Lodge Cloud Nine",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 1054
+  },
+  {
+    "hotel_name": "Inn Forest Edge",
+    "location": "Mandi",
+    "guests_per_room": 3,
+    "price": 1069
+  },
+  {
+    "hotel_name": "Hotel Tranquil Stay",
+    "location": "Kullu",
+    "guests_per_room": 3,
+    "price": 4630
+  },
+  {
+    "hotel_name": "Inn Snowpeak",
+    "location": "Manali",
+    "guests_per_room": 1,
+    "price": 3094
+  },
+  {
+    "hotel_name": "Inn Evergreen",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 3836
+  },
+  {
+    "hotel_name": "Lodge Evergreen",
+    "location": "Sirmaur",
+    "guests_per_room": 5,
+    "price": 3841
+  },
+  {
+    "hotel_name": "Palace Riverbend",
+    "location": "Darjeeling",
+    "guests_per_room": 5,
+    "price": 4951
+  },
+  {
+    "hotel_name": "Inn Mountain View",
+    "location": "Kinnaur",
+    "guests_per_room": 3,
+    "price": 1054
+  },
+  {
+    "hotel_name": "Palace Evergreen",
+    "location": "Chamba",
+    "guests_per_room": 2,
+    "price": 2044
+  },
+  {
+    "hotel_name": "Lodge Forest Edge",
+    "location": "Chamba",
+    "guests_per_room": 5,
+    "price": 3722
+  },
+  {
+    "hotel_name": "Resort Valley Nest",
+    "location": "Sirmaur",
+    "guests_per_room": 5,
+    "price": 7317
+  },
+  {
+    "hotel_name": "Hotel Tranquil Stay",
+    "location": "Darjeeling",
+    "guests_per_room": 4,
+    "price": 1926
+  },
+  {
+    "hotel_name": "Resort Cloud Nine",
+    "location": "Darjeeling",
+    "guests_per_room": 1,
+    "price": 2215
+  },
+  {
+    "hotel_name": "Villa Alpine Glow",
+    "location": "Shimla",
+    "guests_per_room": 5,
+    "price": 6229
+  },
+  {
+    "hotel_name": "Resort Cloud Nine",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 5751
+  },
+  {
+    "hotel_name": "Palace Tranquil Stay",
+    "location": "Dharamshala",
+    "guests_per_room": 5,
+    "price": 1015
+  },
+  {
+    "hotel_name": "Villa Alpine Glow",
+    "location": "Mandi",
+    "guests_per_room": 4,
+    "price": 2021
+  },
+  {
+    "hotel_name": "Lodge Mountain View",
+    "location": "Kinnaur",
+    "guests_per_room": 5,
+    "price": 1441
+  },
+  {
+    "hotel_name": "Palace Forest Edge",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 5146
+  },
+  {
+    "hotel_name": "Inn Evergreen",
+    "location": "Chamba",
+    "guests_per_room": 4,
+    "price": 1102
+  },
+  {
+    "hotel_name": "Hotel Alpine Glow",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 6927
+  },
+  {
+    "hotel_name": "Hotel Forest Edge",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 1156
+  },
+  {
+    "hotel_name": "Lodge Cloud Nine",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 6085
+  },
+  {
+    "hotel_name": "Palace Tranquil Stay",
+    "location": "Kullu",
+    "guests_per_room": 2,
+    "price": 1200
+  },
+  {
+    "hotel_name": "Hotel Alpine Glow",
+    "location": "Sirmaur",
+    "guests_per_room": 5,
+    "price": 6167
+  },
+  {
+    "hotel_name": "Palace Himalayan Bliss",
+    "location": "Mandi",
+    "guests_per_room": 4,
+    "price": 3750
+  },
+  {
+    "hotel_name": "Inn Mountain View",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 2939
+  },
+  {
+    "hotel_name": "Villa Mountain View",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 4487
+  },
+  {
+    "hotel_name": "Villa Forest Edge",
+    "location": "Kinnaur",
+    "guests_per_room": 5,
+    "price": 1187
+  },
+  {
+    "hotel_name": "Palace Alpine Glow",
+    "location": "Shimla",
+    "guests_per_room": 4,
+    "price": 5960
+  },
+  {
+    "hotel_name": "Lodge Riverbend",
+    "location": "Kinnaur",
+    "guests_per_room": 2,
+    "price": 3558
+  },
+  {
+    "hotel_name": "Resort Forest Edge",
+    "location": "Kinnaur",
+    "guests_per_room": 2,
+    "price": 1858
+  },
+  {
+    "hotel_name": "Lodge Valley Nest",
+    "location": "Kullu",
+    "guests_per_room": 4,
+    "price": 6062
+  },
+  {
+    "hotel_name": "Retreat Mountain View",
+    "location": "Manali",
+    "guests_per_room": 4,
+    "price": 2759
+  },
+  {
+    "hotel_name": "Resort Himalayan Bliss",
+    "location": "Shimla",
+    "guests_per_room": 2,
+    "price": 7764
+  },
+  {
+    "hotel_name": "Retreat Alpine Glow",
+    "location": "Darjeeling",
+    "guests_per_room": 1,
+    "price": 7784
+  },
+  {
+    "hotel_name": "Inn Alpine Glow",
+    "location": "Mandi",
+    "guests_per_room": 4,
+    "price": 2460
+  },
+  {
+    "hotel_name": "Palace Himalayan Bliss",
+    "location": "Mandi",
+    "guests_per_room": 2,
+    "price": 3274
+  }
+]

@@ -48,7 +48,7 @@ const Navbar = () => {
                 className={`rounded-full px-3 py-1.5 text-sm transition duration-200 font-spartan ${
                   item === "Home"
                     ? "bg-[#023471] text-white"
-                    : "hover:bg-[#023471] hover:text-white"
+                    : "hover:bg-white hover:text-black"
                 }`}
               >
                 {item}
@@ -57,7 +57,7 @@ const Navbar = () => {
           </nav>
 
           {/* Auth buttons in separate glass div */}
-          <nav className="bg-white/20 backdrop-blur-md h-[6vh] rounded-full shadow-lg px-1 flex items-center w-[12%] justify-between">
+          <nav className="bg-white/20 backdrop-blur-md h-[6vh] rounded-full shadow-lg px-1 flex items-center w-[13%] justify-between">
             {["Login", "Signup"].map((item) => (
               <button
                 key={item}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 className={`text-sm rounded-full px-5 py-2 transition duration-200 font-spartan ${
                   item === "Login"
                     ? "bg-[#023471] text-white"
-                    : "hover:bg-[#023471] hover:text-white"
+                    : "hover:bg-white hover:text-black"
                 }`}
               >
                 {item}

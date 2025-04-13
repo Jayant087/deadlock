@@ -1,5 +1,24 @@
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/location.png";
+import hotels from "../hotels.json";
+import { useState } from "react";
+import HotelResults from "../pages/HotelResults";
 const BusHotelSearch = () => {
+  const navigate = useNavigate();
+  const [selectedHotel, setSelectedHotel] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleSelectHotel = (hotel) => {
+    setSelectedHotel(hotel);
+    setShowDropdown(false);
+  };
+
+  const handleSearch = () => {
+    if (selectedHotel && selectedHotel.location) {
+      navigate(`/hotels/${selectedHotel.location}`);
+    }
+  };
+
   return (
     <div className="relative shadow-xl shadow-gray-700 w-[55vw] h-[37vh] bg-white/50 backdrop-blur-md rounded-3xl">
       <div className="flex justify-center pt-5">
@@ -13,13 +32,34 @@ const BusHotelSearch = () => {
         Book your stay
       </p>
       <div className="flex justify-center p-2 m-auto">
-        <div className="rounded-l-full w-[2vw] bg-white"></div>
-        <div className="flex bg-white pr-2">
+        <div className="rounded-l-full w-[20px] bg-white"></div>
+        <div className="relative flex bg-white pr-2">
           <input
             type="text"
+            value={
+              selectedHotel
+                ? `${selectedHotel.hotel_name}, ${selectedHotel.location}`
+                : ""
+            }
+            readOnly
             placeholder="Search destination hotel"
-            className="flex w-[12.5vw] p-2 focus:outline-none"
+            className="flex border-gray-300 rounded-lg w-[12.5vw] p-2 focus:outline-none"
+            onClick={() => setShowDropdown(!showDropdown)}
           />
+          {showDropdown && (
+            <div className="absolute z-10 top-[4.5vh] mt-2 w-[18vw] max-h-60 overflow-y-auto bg-white border border-gray-300 rounded-lg shadow-md">
+              {hotels.map((hotel, index) => (
+                <div
+                  key={index}
+                  className="px-4 py-2 hover:bg-gray-100 cursor-pointer border-b border-gray-100"
+                  onClick={() => handleSelectHotel(hotel)}
+                >
+                  <p className="font-semibold">{hotel.hotel_name}</p>
+                  <p className="text-sm text-gray-500">{hotel.location}</p>
+                </div>
+              ))}
+            </div>
+          )}
           <div className="py-1 hover:cursor-pointer">
             <div className="p-0.5 rounded-md flex justify-between border-1 border-2 border-blue-500">
               <div className="flex flex-col justify-center">
@@ -42,9 +82,17 @@ const BusHotelSearch = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-full text-white bg-[#389020] w-[50vw] text-center m-auto my-5 p-2 font-sans hover:cursor-pointer hover:bg-green-600">
+      <div
+        className="rounded-full text-white bg-[#389020] w-[50vw] text-center m-auto my-5 p-2 font-sans hover:cursor-pointer hover:bg-green-600"
+        onClick={handleSearch}
+      >
         Search Hotel
       </div>
+      {/* {filteredHotels.length > 0 && (
+        <div className="mt-6">
+          <HotelResults hotels={filteredHotels} />
+        </div>
+      )} */}
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/hotel.png";
 
 const HotelRooms = () => {
   const rooms = [
@@ -46,7 +47,7 @@ const HotelRooms = () => {
   return (
     <div className="flex flex-col h-screen">
       {/* Sidebar */}
-      <div className="w-64 bg-blue-500 text-white p-4">
+      {/* <div className="w-64 bg-blue-500 text-white p-4">
         <h2 className="text-xl font-bold">HIMACHAL TOURISM</h2>
         <ul className="mt-6">
           <li>Home</li>
@@ -57,7 +58,7 @@ const HotelRooms = () => {
           <li>Accounting</li>
           <li>Settings</li>
         </ul>
-      </div>
+      </div> */}
 
       {/* Main content */}
       <div className="flex-1 bg-blue-100 p-6">
@@ -76,11 +77,7 @@ const HotelRooms = () => {
               className="bg-white rounded-lg shadow-md p-4 flex justify-between items-center"
             >
               <div className="flex items-center">
-                <img
-                  src="https://via.placeholder.com/100"
-                  alt={room.name}
-                  className="rounded-lg"
-                />
+                <img src={`${logo}`} alt={room.name} className="rounded-lg" />
                 <div className="ml-4">
                   <h3 className="font-bold">
                     {room.name} (Room no. {room.roomNo})

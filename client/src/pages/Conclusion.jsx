@@ -7,6 +7,9 @@ const Conclusion = () => {
   return (
     <div className="bg-white pt-8 bg-cover">
       {/* Card Section */}
+      <div className="font-helveticaCompressed text-7xl text-center mb-7">
+        ----------------------Popular Destinations---------------------
+      </div>
       <div className="flex justify-center">
         <div className="flex mb-12 font-poppins">
           {/* Card 1 */}
@@ -119,11 +122,11 @@ const Conclusion = () => {
             <div className="w-[35%] mr-5">
               <h3 className="text-lg font-bold mb-4">Quick links</h3>
               <ul className="list-disc list-inside space-y-2">
-                <li>Home</li>
-                <li>Destinations</li>
-                <li>Activities</li>
-                <li>How to reach</li>
-                <li>Tours and packages</li>
+                <li className="hover:cursor-pointer">Home</li>
+                <li className="hover:cursor-pointer">Destinations</li>
+                <li className="hover:cursor-pointer">Activities</li>
+                <li className="hover:cursor-pointer">How to reach</li>
+                <li className="hover:cursor-pointer">Tours and packages</li>
               </ul>
             </div>
 
@@ -131,11 +134,11 @@ const Conclusion = () => {
             <div className="w-[35%] mr-5">
               <h3 className="text-lg font-bold mb-4">About us</h3>
               <ul className="list-disc list-inside space-y-2">
-                <li>About Himachal Tourism</li>
-                <li>What we do</li>
-                <li>Our story</li>
-                <li>Why choose us</li>
-                <li>Contact us</li>
+                <li className="hover:cursor-pointer">About Himachal Tourism</li>
+                <li className="hover:cursor-pointer">What we do</li>
+                <li className="hover:cursor-pointer">Our story</li>
+                <li className="hover:cursor-pointer">Why choose us</li>
+                <li className="hover:cursor-pointer">Contact us</li>
               </ul>
             </div>
 
@@ -143,11 +146,11 @@ const Conclusion = () => {
             <div className="w-[35%]">
               <h3 className="text-lg font-bold mb-4">Customer support</h3>
               <ul className="list-disc list-inside space-y-2">
-                <li>Travel Insurance</li>
-                <li>FAQs</li>
-                <li>Cancellation policy</li>
-                <li>Testimonials</li>
-                <li>Call support</li>
+                <li className="hover:cursor-pointer">Travel Insurance</li>
+                <li className="hover:cursor-pointer">FAQs</li>
+                <li className="hover:cursor-pointer">Cancellation policy</li>
+                <li className="hover:cursor-pointer">Testimonials</li>
+                <li className="hover:cursor-pointer">Call support</li>
               </ul>
             </div>
           </div>

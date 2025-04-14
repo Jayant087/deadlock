@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../assets/location.png";
 import hotels from "../hotels.json";
 import { useState } from "react";
-import HotelResults from "../pages/HotelResults";
+
 const BusHotelSearch = () => {
   const navigate = useNavigate();
   const [selectedHotel, setSelectedHotel] = useState(null);
@@ -23,7 +23,7 @@ const BusHotelSearch = () => {
     <div className="relative shadow-xl shadow-gray-700 w-[55vw] h-[37vh] bg-white/50 backdrop-blur-md rounded-3xl">
       <div className="flex justify-center pt-5">
         <div className="flex bg-white bg-opacity-70 rounded-full w-[9vw] p-1 justify-evenly">
-          <div className="rounded-full flex bg-[#023471] ">
+          <div className="rounded-full flex bg-[#023471]">
             <button className="text-white p-2 w-[8vw]">Hotels</button>
           </div>
         </div>

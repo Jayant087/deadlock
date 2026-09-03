@@ -56,13 +56,3 @@ plan_your_trip-main/
 │       └── components/     # Reusable UI components (e.g., TripResultsDisplay)
 └── .env                    # Environment variables (API keys, config)
 ```
-
----
-
-## 📄 Resume Points
-
-If you are adding this project to your resume, here are three impactful ways to describe the work done:
-
-*   **Developed a "Smart Tourism AI Trip Planner"** that generates personalized itineraries for Himachal Pradesh by integrating **Llama 3.2:3b (via Ollama)**, enabling the system to create customized travel plans based on user budget, activity preferences, and fitness levels.
-*   **Engineered a complete backend migration from Django to FastAPI**, implementing asynchronous request handling and **Pydantic** schemas for strict data validation, which significantly improved API performance and system maintainability.
-*   **Designed a structured JSON communication layer** between a **React.js frontend** and a local LLM, utilizing advanced prompt engineering to ensure the AI consistently produces deterministic, parseable, and high-quality travel data.

@@ -67,7 +67,7 @@ const PlanYourTripPage = () => {
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to generate itinerary');
+        throw new Error(errorData.detail || errorData.error || 'Failed to generate itinerary');
       }
 
       const data = await response.json();

@@ -41,6 +41,14 @@ The project follows a decoupled Client-Server architecture:
    - Enforces a strict JSON format for the LLM response.
 4. **AI Model (Llama 3.2)**: Processes the prompt and generates the personalized travel data.
 
+## API Endpoints
+
+- `POST /api/auth/signup/` creates a local user account.
+- `POST /api/auth/login/` verifies a local user account.
+- `POST /api/planner/generate-personalized/` generates an itinerary with Ollama.
+
+Hotel, destination, room, and offer screens currently use the frontend's bundled JSON data and do not require an API request.
+
 ## 📂 Project Structure
 
 ```text

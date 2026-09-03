@@ -61,11 +61,11 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/home/login/", form);
+      const res = await axios.post("http://localhost:8000/api/auth/login/", form);
       setMessage(res.data.message);
       if (res) navigate("/");
     } catch (err) {
-      setMessage(err.response?.data?.message || "Login failed");
+      setMessage(err.response?.data?.detail || "Login failed");
     }
   };
   return (

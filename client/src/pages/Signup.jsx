@@ -69,7 +69,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/home/signup/", form);
+      const res = await axios.post("http://localhost:8000/api/auth/signup/", form);
       setMessage(res.data.message);
       navigate("/login");
     } catch (err) {

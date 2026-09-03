@@ -1,317 +1,68 @@
-# 🏔️ Smart Tourism & AI Trip Planner
+# 🌍 Smart Tourism & AI Trip Planner
 
-An AI-powered tourism planning platform that generates personalized travel itineraries based on user preferences using Machine Learning, text classification, and similarity scoring.
+An AI-powered travel planning application that generates highly personalized, budget-conscious itineraries for destinations in Himachal Pradesh, India. By leveraging a local Large Language Model (LLM), the system transforms diverse user preferences—such as budget, activity interests, and fitness levels—into detailed day-by-day travel plans.
 
----
+## 🚀 Project Overview
 
-# 📖 About The Project
+The Smart Tourism AI Trip Planner simplifies the complex process of trip planning. Instead of generic guides, users provide specific constraints (Budget, Dates, Travel Style), and the AI generates a structured itinerary including:
+- **Daily Activity Schedules**: Tailored to user preferences with match scores.
+- **Budget Breakdowns**: Realistic estimates for accommodation, food, and transport.
+- **Personalized Recommendations**: Hotel suggestions and packing tips based on the destination's weather and user profile.
+- **AI-Driven Personalization**: Adapts itineraries based on age, fitness level, and special interests.
 
-Planning a trip often requires researching destinations, accommodations, activities, and budgets across multiple platforms. This project simplifies the entire process by generating **personalized travel itineraries** based on the user's interests, budget, travel style, fitness level, and other preferences.
-
-The system combines **Machine Learning**, **Natural Language Processing (NLP)**, and **rule-based recommendation techniques** to recommend suitable hotels, attractions, and activities while optimizing the travel experience.
-
-Instead of providing generic travel suggestions, the application intelligently understands user preferences and generates customized travel plans.
-
----
-
-# ✨ Key Features
-
-- 🎯 Personalized trip planning using 12+ user inputs
-- 🤖 Machine Learning–based recommendation engine
-- 🧠 NLP-powered text classification for travel preferences
-- 📊 Similarity scoring using TF-IDF & Cosine Similarity
-- 🏨 Smart hotel recommendation system
-- 🎡 Activity recommendation based on interests
-- 💰 Budget-aware itinerary generation
-- 📅 Automatic trip duration calculation
-- 🌦️ Weather-aware travel planning
-- 📍 Interactive and responsive user interface
-
----
-
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
-
-- React.js
-- Vite
-- Tailwind CSS
-- React Router
-- Axios
-- Recharts
+- **React.js** (Vite) - For a fast, responsive user interface.
+- **Tailwind CSS** - For modern, utility-first styling.
 
 ### Backend
+- **FastAPI** - High-performance asynchronous framework for the API layer.
+- **Pydantic** - For strict data validation and type safety.
+- **Uvicorn** - ASGI server for production-ready deployment.
 
-- Django
-- Django REST Framework
-- Python
+### AI & Machine Learning
+- **Ollama** - Local LLM orchestration.
+- **Llama 3.2:3b** - The core generative model used for itinerary creation.
+- **Structured JSON Prompting** - Custom prompt engineering to ensure deterministic and parseable AI outputs.
 
-### Machine Learning
+## 🏗️ Architecture
 
-- Scikit-Learn
-- TF-IDF Vectorizer
-- Cosine Similarity
-- Rule-Based Recommendation Engine
+The project follows a decoupled Client-Server architecture:
 
-### Database
+1. **Client Layer (React)**: Collects user inputs through a dynamic form and sends them via REST API to the backend.
+2. **API Layer (FastAPI)**: 
+   - Validates incoming requests using Pydantic schemas.
+   - Manages the lifecycle of the AI service via dependency injection.
+   - Handles CORS for secure frontend-backend communication.
+3. **Service Layer (OllamaService)**: 
+   - Constructs a sophisticated, multi-dimensional prompt.
+   - Interfaces with the local Ollama API.
+   - Enforces a strict JSON format for the LLM response.
+4. **AI Model (Llama 3.2)**: Processes the prompt and generates the personalized travel data.
 
-- SQLite
+## 📂 Project Structure
 
-### Tools
-
-- Git
-- GitHub
-- VS Code
-
----
-
-# 🏗️ Project Architecture
-
-```
-                    User Preferences
-                          │
-                          ▼
-                  React Frontend (Vite)
-                          │
-                    REST API (Axios)
-                          │
-                          ▼
-                 Django Backend API
-                          │
-      ┌───────────────────┼───────────────────┐
-      │                   │                   │
-      ▼                   ▼                   ▼
-Text Classification   Preference Engine   Budget Analyzer
-      │                   │                   │
-      └──────────────┬────┴──────────────┬────┘
-                     ▼
-            ML Recommendation Engine
-                     │
-          Hotel & Activity Ranking
-                     │
-                     ▼
-          Personalized Trip Itinerary
+```text
+plan_your_trip-main/
+├── app/                    # FastAPI Application
+│   ├── main.py             # Entry point, API routing, and CORS config
+│   └── schemas.py          # Pydantic models for request/response validation
+├── planner/                # Business Logic & AI Services
+│   └── ollama_service.py   # Local LLM integration and prompt engineering
+├── client/                 # React Frontend
+│   └── src/
+│       ├── pages/          # Main page components (e.g., PlanYourTripPage)
+│       └── components/     # Reusable UI components (e.g., TripResultsDisplay)
+└── .env                    # Environment variables (API keys, config)
 ```
 
 ---
 
-# 📂 Project Structure
+## 📄 Resume Points
 
-```
-Smart-Tourism/
-│
-├── client/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend/
-│   ├── api/
-│   ├── itinerary_generator.py
-│   ├── preference_matcher.py
-│   ├── views.py
-│   ├── urls.py
-│   └── manage.py
-│
-├── Documentation/
-│
-├── README.md
-└── requirements.txt
-```
+If you are adding this project to your resume, here are three impactful ways to describe the work done:
 
----
-
-# 🚀 Getting Started
-
-## Prerequisites
-
-- Python 3.11+
-- Node.js 18+
-- npm
-
----
-
-# ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/DECODEXJAYANT/Deadlock.git
-```
-
-### Navigate to Project
-
-```bash
-cd Deadlock
-```
-
----
-
-## Backend Setup
-
-Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate Environment
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Linux / macOS
-
-```bash
-source venv/bin/activate
-```
-
-Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run Backend
-
-```bash
-python manage.py runserver
-```
-
----
-
-## Frontend Setup
-
-Navigate to client
-
-```bash
-cd client
-```
-
-Install Packages
-
-```bash
-npm install
-```
-
-Run Development Server
-
-```bash
-npm run dev
-```
-
----
-
-# 💻 Usage
-
-1. Open the application.
-
-2. Navigate to **Plan Your Trip**
-
-3. Fill in
-
-- Destination
-- Budget
-- Number of Travelers
-- Start Date
-- End Date
-- Trip Type
-- Activity Preferences
-- Accommodation Type
-- Fitness Level
-- Age
-- Weather Preference
-- Special Interests
-
-4. Click **Plan My Trip**
-
-5. Receive
-
-- Personalized Itinerary
-- Hotel Recommendations
-- Activity Suggestions
-- Estimated Budget
-- Travel Insights
-
----
-
-# 🧠 Machine Learning Workflow
-
-```
-User Preferences
-       │
-       ▼
-Text Classification
-       │
-       ▼
-TF-IDF Vectorization
-       │
-       ▼
-Cosine Similarity
-       │
-       ▼
-Recommendation Engine
-       │
-       ▼
-Personalized Itinerary
-```
-
----
-
-# 🌟 Future Improvements
-
-- Google Maps Integration
-- Live Weather API
-- Hotel Booking Integration
-- AI Chat Assistant
-- Multi-language Support
-- User Authentication
-- Collaborative Trip Planning
-- Mobile Application
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-
-2. Create a feature branch
-
-```bash
-git checkout -b feature/NewFeature
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to GitHub
-
-```bash
-git push origin feature/NewFeature
-```
-
-5. Open a Pull Request
-
----
-
-# 👨‍💻 Author
-
-**Jayant Kumar**
-
-- GitHub: https://github.com/DECODEXJAYANT
-- Email: kumarjayant087@gmail.com
-
----
-
-# ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub!You can see the live version here:- 
+*   **Developed a "Smart Tourism AI Trip Planner"** that generates personalized itineraries for Himachal Pradesh by integrating **Llama 3.2:3b (via Ollama)**, enabling the system to create customized travel plans based on user budget, activity preferences, and fitness levels.
+*   **Engineered a complete backend migration from Django to FastAPI**, implementing asynchronous request handling and **Pydantic** schemas for strict data validation, which significantly improved API performance and system maintainability.
+*   **Designed a structured JSON communication layer** between a **React.js frontend** and a local LLM, utilizing advanced prompt engineering to ensure the AI consistently produces deterministic, parseable, and high-quality travel data.

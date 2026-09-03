@@ -40,7 +40,9 @@ const TripResultsDisplay = ({ results, onBack }) => {
         <div className="bg-white rounded-lg shadow-xl p-8">
           {/* Trip Header */}
           <div className="border-b pb-6 mb-6">
-            <h1 className="text-4xl font-bold text-gray-800 mb-2">{destination} Trip</h1>
+            <h1 className="text-4xl font-bold text-gray-800 mb-2">
+              {destination} Trip <span className="text-sm font-normal bg-indigo-100 text-indigo-600 px-2 py-1 rounded-full ml-2">AI Generated</span>
+            </h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700">
               <div>
                 <p className="text-sm text-gray-600">Dates</p>

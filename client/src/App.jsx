@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-import PlanYourTrip from "./pages/PlanYourTrip";
+import PlanYourTripPage from "./pages/PlanYourTripPage";
 import HotelList from "./pages/HotelList";
 import SearchFilterPage from "./pages/SearchFilterPage";
 import RoomLayout from "./pages/RoomsLayout";
@@ -25,7 +25,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         {/* <Route path="/results" element={<HotelResults />} /> */}
         <Route path="/searchfilter" element={<SearchFilterPage />} />
-        <Route path="/plan-your-trip" element={<PlanYourTrip />} />
+        <Route path="/plan-your-trip" element={<PlanYourTripPage />} />
         <Route path="/hotels/:location" element={<HotelList />} />
         <Route path="/room-layout" element={<RoomLayout />} />
         <Route path="/admin-dashboard" element={<AdminDashboard />} />
